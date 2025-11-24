@@ -1,13 +1,3 @@
----
-title: Embedded Systems & Electronics Lab
----
-
-<!-- Enable MathJax for LaTeX equations -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async 
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # 🔧 Embedded Systems & Electronics Lab
 
 A structured, 90-day engineering journey through:
@@ -146,13 +136,13 @@ Below is the full breakdown of the 90-day plan covered in this lab.
 MathJax is enabled. Try an equation:
 
 Inline:  
-\( V = IR \)
+$V = IR$
 
 Block:  
 
-\[
+$$
 I = \frac{V_{R}}{R}
-\]
+$$
 
 ---
 

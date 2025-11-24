@@ -21,8 +21,8 @@ A breadboard has two main areas:
 - Rails are connected vertically  
 - Often split into upper and lower halves
 
-  🔴 (+): | | | | | | | | |
-  🔵 (−): | | | | | | | | |
+-  🔴 (+): | | | | | | | | |
+-  🔵 (−): | | | | | | | | |
 
 ### **Terminal Strips (Horizontal)**
 Rows A–E are connected horizontally.  

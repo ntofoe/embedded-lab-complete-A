@@ -65,7 +65,7 @@ Below is the full breakdown of the 90-day plan covered in this lab.
 ✔ Multimeter skills  
 
 👉 Start here:  
-[electronics-basics/day01-breadboard-basics](electronics-basics/day01-breadboard-basics.html)
+[electronics-basics/day01-breadboard-basics](electronics-basics/day01_breadboard-basics/day01_breadboard-basics.html)
 
 ---
 

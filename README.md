@@ -1,17 +1,12 @@
 # 🔧 Embedded Systems & Electronics Lab  
-*A 90-Day Hands-On Engineering Journey: Arduino • ESP32 • IoT • Sensors • Robotics • PCB Design • FPGA*
+*A Hands-On Engineering Journey: Arduino • ESP32 • IoT • Sensors • Robotics • PCB Design • FPGA*
 
 <p align="center">
-  <img src="banner.png" alt="Embedded Lab Banner" width="100%" />
+  <img src="Banner.png" alt="Embedded Lab Banner" width="100%" />
 </p>
 
-
-![banner](banner.png)
-
----
-
 ## 📘 Overview  
-This repository documents my **complete 90-day embedded systems engineering lab**, where I explore:
+This repository documents my **complete embedded systems engineering lab**, where I explore:
 
 - **Electronics fundamentals**
 - **Arduino UNO R4 WiFi development**

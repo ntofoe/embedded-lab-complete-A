@@ -140,7 +140,7 @@ Below is the full breakdown of the 90-day plan covered in this lab.
 MathJax is enabled. Try an equation:
 
 Inline:  
-$V = IR$
+\( V = IR \)
 
 Block:  
 

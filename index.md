@@ -39,7 +39,7 @@ Browse the sections below to jump into any topic.
 
 | Section | Folder |
 |--------|--------|
-| 📗 **Electronics Basics (Days 1–5)** | [`electronics-basics/`](electronics-basics/) |
+| 📗 **Electronics Basics (Days 1–5)** | [Electronics Basics](electronics-basics/day01-breadboard-basics.html) |
 | 🔌 **Arduino Basics (Days 6–15)** | [`arduino-basics/`](arduino-basics/) |
 | 📟 **Sensors & Displays (Days 16–30)** | [`sensors-displays/`](sensors-displays/) |
 | 📡 **ESP32 IoT (Days 31–45)** | [`esp32-iot/`](esp32-iot/) |
@@ -65,7 +65,7 @@ Below is the full breakdown of the 90-day plan covered in this lab.
 ✔ Multimeter skills  
 
 👉 Start here:  
-[`electronics-basics/day01_breadboard-basics/`](electronics-basics/day01_breadboard-basics/)
+[electronics-basics/day01-breadboard-basics](electronics-basics/day01-breadboard-basics.html)
 
 ---
 

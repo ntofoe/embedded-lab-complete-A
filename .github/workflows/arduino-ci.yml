@@ -1,1 +1,30 @@
-name: test
+name: Arduino CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: Install platform
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:renesas_uno
+
+      - name: Compile all sketches
+        run: |
+          find . -name "*.ino" | while read sketch; do
+            echo "Compiling $sketch"
+            arduino-cli compile "$sketch" --fqbn arduino:renesas_uno:unor4wifi
+          done

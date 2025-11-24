@@ -136,15 +136,15 @@ Power an LED using the bench supply while measuring voltage and current.
    - Turn output ON  
 
 3. Measure LED voltage  
-   - Red LED: ~1.8–2.2V  
-   - Blue/White: ~2.8–3.3V  
+   - Red LED: ~1.8 – 2.2V  
+   - Blue/White: ~2.8 – 3.3V  
 
 4. Measure current in series  
    - Expect 10–20mA  
 
 5. Verify Ohm’s Law  
-   - \( V_R = 5V - V_{LED} \)  
-   - \( I = \frac{V_R}{R} \)
+   - $ V_R = 5V - V_{LED} $  
+   - $ I = \frac{V_R}{R} $
 
 ---
 

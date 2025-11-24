@@ -1,8 +1,6 @@
 ![Arduino CI](https://github.com/ntofoe/embedded-lab/actions/workflows/arduino-ci.yml/badge.svg)
 ![ESP32 CI](https://github.com/ntofoe/embedded-lab/actions/workflows/esp32-ci.yml/badge.svg)
 ![Verilog CI](https://github.com/ntofoe/embedded-lab/actions/workflows/verilog-ci.yml/badge.svg)
-![KiCad CI](https://github.com/ntofoe/embedded-lab/actions/workflows/kicad-ci.yml/badge.svg)
-
 
 # 🔧 Embedded Systems & Electronics Lab  
 *A Hands-On Engineering Journey: Arduino • ESP32 • IoT • Sensors • Robotics • PCB Design • FPGA*

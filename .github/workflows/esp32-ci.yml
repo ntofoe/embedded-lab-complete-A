@@ -1,0 +1,33 @@
+name: ESP32 PlatformIO CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install PlatformIO
+        run: |
+          pip install platformio
+
+      - name: Build ESP32 projects
+        run: |
+          for dir in $(find . -type f -name "platformio.ini" -exec dirname {} \;); do
+            echo "Building PlatformIO project in $dir"
+            cd "$dir"
+            pio run
+            cd -
+          done

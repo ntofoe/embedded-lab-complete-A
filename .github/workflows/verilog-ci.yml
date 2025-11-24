@@ -1,0 +1,25 @@
+name: Verilog CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verilog-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Verilator
+        run: sudo apt-get update && sudo apt-get install -y verilator
+
+      - name: Lint Verilog code
+        run: |
+          find fpga -name "*.v" | while read file; do
+            echo "Linting $file"
+            verilator --lint-only "$file"
+          done

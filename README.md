@@ -2,7 +2,9 @@
 *A Hands-On Engineering Journey: Arduino • ESP32 • IoT • Sensors • Robotics • PCB Design • FPGA*
 
 <p align="center">
-  <img src="Banner.png" alt="Embedded Lab Banner" width="100%" />
+  <a href="https://github.com/ntofoe/embedded-lab">
+    <img src="Banner.png" width="100%" alt="Embedded Lab Banner" />
+  </a>
 </p>
 
 ## 📘 Overview  

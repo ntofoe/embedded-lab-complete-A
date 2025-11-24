@@ -1,0 +1,10 @@
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Required for GitHub Pages
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/primer@v0.6.0

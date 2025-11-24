@@ -3,8 +3,6 @@ layout: default
 title: Electronics Basics (Days 1–5)
 ---
 
-# ⚡ Electronics Basics — Days 1–5
-
 Welcome to the **Electronics Fundamentals** module.  
 In these five days, you will build the foundation for everything in embedded systems, PCB design, and hardware engineering.
 
